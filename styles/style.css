@@ -43,7 +43,7 @@ ol {
   justify-items: center;
   align-items: end;
   gap: 31px;
-  margin: 133px 30px; /* шаг 1 , по приходу домой разобраться с размерами и расположением элементов*/
+  margin: 133px 30px; 
 }
 
 .title {
