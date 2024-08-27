@@ -9,13 +9,17 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  inline-size: 1200px;
+  block-size: 100%;
+  min-height: 100vh;
+  margin: auto;
 }
 
 h1,
@@ -43,7 +47,8 @@ ol {
   justify-items: center;
   align-items: end;
   gap: 31px;
-  margin: 133px 30px; 
+  inline-size: 1140px;
+  block-size: 534px;
 }
 
 .title {
@@ -54,7 +59,7 @@ ol {
   line-height: 94%;
   text-transform: uppercase;
   color: #fff;
-  padding-block-end: 26px;
+  padding-block-end: 13px;
 }
 
 .content__accent {
@@ -100,6 +105,7 @@ ol {
   flex-direction: column;
   block-size: 100%;
   inline-size: 100%;
+  margin-block-start: 30px;
 }
 
 .visually-hidden {
@@ -110,6 +116,12 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
+}
+
+.result {
+  inline-size: 711px;
+  block-size: 456px;
+  margin-block-end: 10px;
 }
 
 .result__video-container {
